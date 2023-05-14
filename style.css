@@ -5,21 +5,66 @@
     box-sizing: border-box;
     list-style-type: none;
 }
+
 .container{
     margin-left: 5%;
     margin-right: 5%;
     position: absolute;
     top:50px;
+    
 }
  header nav{
     background-color:#0D5C63;
     text-align: right;
     position: fixed;
     width: 100%;
+    height: 25px;
 }
 header nav a{
     color: aliceblue;
     padding: 10px 10px;
+    border: 40%;
+    margin-right: 20px
+}
+#home{
+    background-color: rgb(133, 196, 178);
+    color: black;
+    border-radius: 20px;
+    width: 10px;
+    height: 25px;
+}
+#tech{
+    background-color: rgb(133, 196, 178);
+    color: black;
+    border-radius: 20px;
+    width: 10px;
+    height: 25px;
+}
+#edu{
+    background-color: rgb(133, 196, 178);
+    color: black;
+    border-radius: 20px;
+    width: 10px;
+    height: 25px;
+}
+#project{
+    background-color: rgb(133, 196, 178);
+    color: black;
+    border-radius: 20px;
+    width: 10px;
+    height: 25px;
+}
+#pinfo{
+    background-color: rgb(133, 196, 178);
+    color: black;
+    border-radius: 20px;
+    width: 10px;
+    height: 25px;
+}
+.perinfo p{
+    background-color: rgb(238, 229, 218);
+    padding-top: 10px;
+
 }
 .info img{
     width: 150px;
@@ -40,12 +85,21 @@ header nav a{
     padding-top: 90px;
 }
 .summary h2{
-    color: #0D5C63;  
+    background-color: #0D5C63;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 27px;
+    padding-top: 0px;
+    font-size:25px ; 
 }
 .summary ul li{
     padding:10px 0px;
     color: #0D5C63; 
     font-weight: bolder;
+    background-color: rgb(238, 229, 218);
+
 }
 .summary ul li::before{
     content: '✍️';
@@ -56,24 +110,61 @@ header nav a{
     background-color: rgb(237, 144, 152);
 }
 #techStackSection h4{
-    color: #0D5C63;
-    font-size: larger;
-    font-weight: bolder;
+    background-color: #0D5C63;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 27px;
+    padding-top: 0px;
+    font-size:25px ;
 }
 #techStackSection table,th,tr,td{
+    margin-top: 10px;
     border: 2px solid #1f686e;
     border-collapse: collapse;
     padding: 10px;
 }
+#techStackSection #Hname{
+    
+    color: rgb(196, 95, 6);
+}
 #educationDetails h4{
-    color: #0D5C63; 
+    background-color: #0D5C63;
+    color: white; 
     font-weight: bolder;
     margin-top: 20px;
+    width: 100%;
+    height: 27px;
+    font-size:25px ;
+    padding-top: 0px;
+    padding-left: 10px;
+    border-radius: 10px;
 }
 .education table,th,tr,td{
     border: 2px solid #1f686e;
     border-collapse: collapse;
+    margin-top: 10px;
 }
 .education table th, td{
     padding: 10px;
+    background-color: rgb(238, 229, 218);
+}
+.education th{
+    color: rgb(196, 95, 6);
+}
+.pinfo{
+    margin-top: 20px;
+    width:100%;
+}
+.pinfo h2{
+    background-color: #0D5C63;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.info{
+    margin-top: 10px;
+    background-color: rgb(238, 229, 218);
 }
